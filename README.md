@@ -107,7 +107,8 @@ Logged-in users can view their contracts on the dashboard (/dashboard/).
 
 ---
 
-##Contact
+## Contact
+
 If you have any questions or need assistance, feel free to reach out:
 
 baset behzad: basetbehzad2017@gmail.com
