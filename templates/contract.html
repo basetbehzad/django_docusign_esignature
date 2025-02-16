@@ -1,0 +1,10 @@
+{% extends 'contracts/success.html' %}
+{% block title %}New Contract{% endblock %}
+{% block content %}
+<h2>Create a New Contract</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Create Contract</button>
+</form>
+{% endblock %}

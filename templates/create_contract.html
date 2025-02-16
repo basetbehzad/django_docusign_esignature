@@ -1,0 +1,23 @@
+<h1>Create a New Contract</h1>
+<form method="post" action="{% url 'create_contract' %}">
+    {% csrf_token %}
+    <label for="signer_name">Signer's Name:</label>
+    <input type="text" id="signer_name" name="signer_name" required><br><br>
+
+    <label for="signer_email">Signer's Email:</label>
+    <input type="email" id="signer_email" name="signer_email" required><br><br>
+
+    <label for="cc_name">CC's Name:</label>
+    <input type="text" id="cc_name" name="cc_name"><br><br>
+
+    <label for="cc_email">CC's Email:</label>
+    <input type="email" id="cc_email" name="cc_email"><br><br>
+
+    <label for="contract_body">Contract Body:</label><br>
+    <textarea id="contract_body" name="contract_body" rows="10" cols="50" required></textarea><br><br>
+
+    <label for="contract_date">Contract Date:</label>
+    <input type="date" id="contract_date" name="contract_date" required><br><br>
+
+    <button type="submit">Submit</button>
+</form>
