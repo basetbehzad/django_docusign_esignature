@@ -80,12 +80,12 @@ go to (docusign/login) url
 Navigate to the contract creation page (/create-contract/).
 Fill in the form with the following details:
 
-Signer's Name: Name of the primary signer.
-Signer's Email: Email of the primary signer.
-CC's Name: Name of the carbon copy recipient (optional).
-CC's Email: Email of the carbon copy recipient (optional).
-Contract Body: The content of the contracts
-Contract Date: The date of the contract.
+- **Signer's Name**: Name of the primary signer.
+- **Signer's Email**: Email of the primary signer.
+- **CC's Name**: Name of the contract recipient.
+- **CC's Email**: Email of the contract recipient.
+- **Contract Body**: The content of the contracts
+- **Contract Date**: The date of the contract.
 Click Submit to send the contract to the signer via email.
 ### 4. Sign the Contract
 The signer will receive an email with a link to sign the contract.
